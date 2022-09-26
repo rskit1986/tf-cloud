@@ -3,7 +3,7 @@ terraform {
     organization = "rsk-test-org"
 
     workspaces {
-      name = "gcf-app-useast1-dev"
+      tags = ["development","staging","production"]
     }
   }
 }
